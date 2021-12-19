@@ -10,14 +10,12 @@ namespace SportsEquipCatalog
     {
         public string Name { get; set; }
         public double Price { get; set; }
-        public int Id { get; set; }
         public bool Available { get; set; }
 
-        public Equipment(string Name, double Price, int Id, bool Available)
+        public Equipment(string Name, double Price, bool Available)
         {
             this.Name = Name;
             this.Price = Price;
-            this.Id = Id;
             this.Available = Available;
         }
     }
